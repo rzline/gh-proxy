@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ghproxy:
+    restart: always
+    image: 'hunsh/gh-proxy-py:latest'
+    ports:
+      - 80:80
